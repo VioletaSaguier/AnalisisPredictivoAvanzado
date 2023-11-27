@@ -1,2 +1,1 @@
-# AnalisisPredictivoAvanzado
-Repositorio de anáilisis predictivo avanzado
+# itba_apa_github
