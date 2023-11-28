@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
+import joblib
 
-# Cargar modelos entrenados
-#model_lr = joblib.load('modelo_regresion.pkl')
-#model_svc = joblib.load('modelo_clasificacion.pkl')
+# cargo mis modelos entrenados desde pkl
 model_svc = joblib.load('pred_svc.pkl')
 model_lr = joblib.load('pred_lr.pkl')
 
@@ -35,4 +34,3 @@ if st.button('Predecir Match'):
     # Mostrar los resultados
     st.write(f'Predicción de match (Regresión): {prediction_reg:.2f}')
     st.write('Predicción de match (Clasificación):', 'Match' if prediction_clf == 1 else 'No Match')
-
