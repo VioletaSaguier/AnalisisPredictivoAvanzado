@@ -3,8 +3,10 @@ import pandas as pd
 import joblib
 
 # Cargar modelos entrenados
-model_lr = joblib.load('modelo_regresion.pkl')
-model_svc = joblib.load('modelo_clasificacion.pkl')
+#model_lr = joblib.load('modelo_regresion.pkl')
+#model_svc = joblib.load('modelo_clasificacion.pkl')
+model_svc = joblib.load('pred_svc.pkl')
+model_lr = joblib.load('pred_lr.pkl')
 
 # Crear la interfaz de Streamlit
 st.title('Predicción de Match')
