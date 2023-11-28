@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-import joblib
+#import joblib
 
 # cargo mis modelos entrenados desde pkl
 picke_in_svc = open("pred_svc.pkl", "rb")
