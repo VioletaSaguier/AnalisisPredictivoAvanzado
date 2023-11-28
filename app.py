@@ -1,14 +1,21 @@
 import streamlit as st
-import pickle
 import numpy as np
 import pandas as pd
 #import joblib
 
 # cargo mis modelos entrenados desde pkl
-pickle_in_svc = open("pred_svc.pkl", "rb")
-pred_svc = pickle.load(pickle_in_svc)
+#pickle_in_svc = open("pred_svc.pkl", "rb")
+#pred_svc = pickle.load(pickle_in_svc)
 #model_svc = joblib.load('pred_svc.pkl')
 #model_lr = joblib.load('pred_lr.pkl')
+
+import pickle
+with open('pred_svc.pkl', 'rb') as pickle_in_svc:
+    pred_svc = pickle.load(pickle_in_svc)
+
+
+
+
 
 
 def main():
