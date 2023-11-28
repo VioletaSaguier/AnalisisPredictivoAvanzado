@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 
 # Cargar modelos entrenados
 #model_lr = joblib.load('modelo_regresion.pkl')
