@@ -6,3 +6,10 @@ plotly==5.15.0
 joblib
 pickle
 scikit-learn
+
+
+import matplotlib.pyplot as plt
+import LinearRegression
+import train_test_split
+import SimpleImputer  # Import SimpleImputer
+import LinearSVC
