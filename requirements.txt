@@ -7,8 +7,8 @@ joblib
 scikit-learn
 
 
-import matplotlib.pyplot as plt
-import LinearRegression
-import train_test_split
-import SimpleImputer  # Import SimpleImputer
-import LinearSVC
+matplotlib
+LinearRegression
+train_test_split
+SimpleImputer 
+LinearSVC
