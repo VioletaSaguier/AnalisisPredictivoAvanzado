@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-pip install pickle-mixin
+import pickle
 #import joblib
 
 # cargo mis modelos entrenados desde pkl
@@ -10,7 +10,6 @@ pip install pickle-mixin
 #model_svc = joblib.load('pred_svc.pkl')
 #model_lr = joblib.load('pred_lr.pkl')
 
-import pickle
 with open('pred_svc.pkl', 'rb') as pickle_in_svc:
     pred_svc = pickle.load(pickle_in_svc)
 
